@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    /*padding for entire page is zero*/
+    padding: 0;
+    /*margin for entire page is zero*/
+    margin: 0;
+  }
+  /*division having class name as container*/
+  .container {
+    /*content wii be displayed in a flex that means like a box*/
+    display: flex;
+    /*for the division the background color will be white*/
+    background: #fff;
+    /* at that time we are using flex means there will be some contents in box so the content will be a box*/
+    align-content: center;
+    /* so all things in flex box is centerd */
+    justify-content: center;
+    /* the contents in the division will be displayed as coiumn*/
+    flex-direction: column;
+    /*there will be a minimum width should be 700px*/
+    min-width: 700px;
+    /*there will be a minimum height should be 500px*/
+    min-height: 500px;
+    /*border radius means change the shape of the  container corners  by applying it to 5%*/
+    border-radius: 5%;
+    /*margin wii be default*/
+    margin: auto;
+  }
+  /*table is an element for designing tables and below things we all apply to the table elements*/
+  table {
+    /*border should collapse into a single border*/
+      border-collapse:collapse;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  /*for table data*/
+  td {
+      background-color: black;
+      /*border will be the outline between margin and the content it has 3 values for thickness,oulint,color*/
+      border: 3px solid white;
+      font-size:80px;
+      color:#ffffff;
+      /*border radius to change the corners here we use 10px for four sides*/
+      border-radius: 10px 10px 10px 10px;
+  }
+    background-color: #666666;
+    border: 5px solid white;
+    font-size: 80px;
+    color: #ffffff;
+    border-radius: 10%;
+  }
+  /*for unique styling we use identifier so here we are using id with player name*/
+  #player {
+    /* distance between border and content of the element.rem is another unit*/
+    padding: 1rem;
+  }
+  /* for the content which will be present inside the body this styling will be displayed*/
+  body {
+    display: flex;
+    background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat
+      center center/cover;
+    height: 100vh;
+    width: 100%;
+    /*overflow is a property it do if any thing goes outside of the given space it is not displayed because of hidden value*/
+    overflow: hidden;
+  }
